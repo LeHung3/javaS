@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý nhân viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quản lý nhân viên</h1>
+        <div id="input-section">
+            <label for="soLuongNV">Nhập số lượng nhân viên: </label>
+            <input type="number" id="soLuongNV">
+            <button onclick="taoDanhSachNhanVien()">Tạo danh sách</button>
+        </div>
+        <div id="output-section">
+            <h2>Danh sách nhân viên:</h2>
+            <div id="danhSachNV"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
